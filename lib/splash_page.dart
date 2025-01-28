@@ -13,7 +13,7 @@ class SplashPageState extends State<SplashPage> {
   @override
   void initState() {
     //Timer from the dart:async library after 3 seconds for task is to execute
-    Timer(const Duration(seconds: 3), () {
+    Timer(const Duration(seconds: 2), () {
       //For routing to a new screen
       Navigator.of(context)
           .push(MaterialPageRoute(builder: (_) => const HomeScreen()));

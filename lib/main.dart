@@ -18,6 +18,10 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
+      darkTheme: ThemeData(
+          appBarTheme: const AppBarTheme(backgroundColor: Colors.black),
+          scaffoldBackgroundColor: Colors.black),
+      themeMode: ThemeMode.dark,
       home: const SplashPage(),
     );
   }
